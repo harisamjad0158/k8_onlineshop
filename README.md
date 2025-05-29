@@ -36,4 +36,4 @@ kubectl port-forward --address 0.0.0.0 svc/online-shop 8080:80 -n online-shop-pr
 
 # browse >>> http://ip:8080/shop
 
-kubectl apply -f a.yml
+kubectl delete -f .    
